@@ -1,19 +1,43 @@
 aid: acquirecom-fka-microacquire
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/acquirecom-fka-microacquire.png
 name: Acquire.com (fka MicroAcquire)
-description: 'Acquire.com (fka MicroAcquire) is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: marketplaces. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Acquire.com (formerly MicroAcquire) is an online marketplace for buying
+  and selling startups and online businesses. It connects vetted buyers with founders
+  looking to sell, offering deal discovery, financial metrics, escrow and closing
+  tooling, buyer memberships, and M&A education through the Acquire Academy. Founded
+  by Andrew Gazdecki and backed by Bessemer Venture Partners, the platform operates
+  as a self-serve acquisition marketplace (app.acquire.com) rather than a developer
+  API provider. This profile tracks the company in the API Evangelist network; no
+  public developer API, SDKs, or webhook surface is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/acquirecom-fka-microacquire/refs/heads/main/apis.yml
 x-type: company
 x-source: bessemer-venture-partners-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-former-name: MicroAcquire
+x-former-website: https://microacquire.com
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Marketplaces
+- Mergers and Acquisitions
+- Startups
+- Business Brokerage
+- SaaS
+- Deal Flow
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +46,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://microacquire.com
+  url: https://acquire.com
+- type: SignUp
+  url: https://app.acquire.com/register
+- type: Login
+  url: https://app.acquire.com/login
+- type: Pricing
+  url: https://acquire.com/pricing/
+- type: Documentation
+  url: https://help.acquire.com/
+- type: HelpCenter
+  url: https://help.acquire.com/
+- type: Support
+  url: mailto:support@acquire.com
+- type: Blog
+  url: https://blog.acquire.com/
+- type: TermsOfService
+  url: https://acquire.com/terms/
+- type: PrivacyPolicy
+  url: https://acquire.com/privacy/
+- type: WellKnown
+  url: well-known/acquirecom-fka-microacquire-well-known.yml
+- type: DomainSecurity
+  url: security/acquirecom-fka-microacquire-domain-security.yml
+- type: LLMsTxt
+  url: llms/acquirecom-fka-microacquire-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
