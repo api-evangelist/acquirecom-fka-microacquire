@@ -1,0 +1,22 @@
+# Acquire.com (fka MicroAcquire)
+
+> Acquire.com (formerly MicroAcquire) is an online marketplace for buying and selling startups and online businesses, connecting vetted buyers with founders who want to sell. It offers deal discovery, financial metrics, escrow and closing tooling, buyer memberships, and M&A education via the Acquire Academy. Founded by Andrew Gazdecki and backed by Bessemer Venture Partners. As of this profile the company publishes no public developer API, SDKs, or webhook surface.
+
+## Company
+- [Website](https://acquire.com): Startup acquisition marketplace homepage.
+- [Sign up](https://app.acquire.com/register): Create a buyer or seller account.
+- [Log in](https://app.acquire.com/login): Access the marketplace application.
+- [Pricing](https://acquire.com/pricing/): Free Basic plan and paid Buyer Membership (from $390).
+
+## Docs
+- [Help Center](https://help.acquire.com/): Support articles for buyers and sellers.
+- [Blog](https://blog.acquire.com/): Acquisitions, M&A, and startup content.
+
+## Legal
+- [Terms of Use](https://acquire.com/terms/)
+- [Privacy Policy](https://acquire.com/privacy/)
+
+## Notes
+- No public REST/GraphQL API, OpenAPI/AsyncAPI spec, SDKs, CLI, MCP server, or webhook catalog is published.
+- No /.well-known/ discovery documents are exposed.
+- Support: support@acquire.com

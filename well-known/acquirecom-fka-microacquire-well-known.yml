@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of /.well-known/ on acquire.com and help.acquire.com
+host: https://acquire.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Acquire.com publishes no /.well-known/ discovery documents. It is a self-serve
+  startup-acquisition marketplace with no public developer API surface, so no
+  OIDC/OAuth authorization-server metadata, API catalog, security.txt, or
+  ai-plugin manifest is exposed. Recorded absence, not a fetch failure.
