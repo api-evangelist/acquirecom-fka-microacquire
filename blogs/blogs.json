@@ -3,12 +3,19 @@
   "feeds": [
     {
       "source": "https://blog.acquire.com/",
+      "feed_url": "https://blog.acquire.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://blog.acquire.com/feed/",
       "feed_url": "https://blog.acquire.com/feed/",
       "title": "",
-      "saved": 2,
-      "method": "discovered"
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 2,
-  "fetched": "2026-10-10T13:15:00Z"
+  "fetched": "2026-10-17T14:53:57Z"
 }
